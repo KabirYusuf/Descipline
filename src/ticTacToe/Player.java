@@ -2,7 +2,7 @@ package ticTacToe;
 
 import ticTacToe.exception.*;
 
-import static ticTacToe.Mark.E;
+import static ticTacToe.Mark.*;
 
 public class Player {
     private String name;
