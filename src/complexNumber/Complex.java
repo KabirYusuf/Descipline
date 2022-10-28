@@ -46,14 +46,6 @@ public class Complex {
     }
 
 
-//    @Override
-//    public String toString() {
-//        return "Complex{" +
-//                "realPart=" + realPart +
-//                ", imaginaryPart=" + imaginaryPart +
-//                '}';
-//    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

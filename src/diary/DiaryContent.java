@@ -1,15 +1,15 @@
 package diary;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.Objects;
 
 public class DiaryContent {
-    private LocalDateTime dateTime;
+    private LocalDate dateTime;
     private String title;
     private String mainContent;
 
     public DiaryContent(){
-        dateTime = LocalDateTime.now();
+        dateTime = java.time.LocalDate.now();
     }
 
     public String getTitle() {

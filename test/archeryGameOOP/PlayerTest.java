@@ -35,4 +35,5 @@ class PlayerTest {
     void testThatPointsGeneratedWhenAPlayerShootsIsBetweenZeroToTen_ZeroAndTenInclusive(){
         assertTrue(playerOne.isAValidPoint());
     }
+
 }

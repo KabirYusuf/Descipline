@@ -6,8 +6,6 @@ public class Player {
 
     private final int playerNumber;
 
-    private final SecureRandom secureRandom = new SecureRandom();
-
     private static int count = 0;
 
     public Player(){
@@ -20,6 +18,7 @@ public class Player {
     }
 
     public int shoot() {
+        SecureRandom secureRandom = new SecureRandom();
         int point = secureRandom.nextInt(11);
         return point;
     }

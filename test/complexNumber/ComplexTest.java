@@ -22,7 +22,7 @@ class ComplexTest {
 
     @Test
     void testThatComplexNumbersCanBeSubtracted(){
-        Complex addNumber = Complex.subtractComplexNumber(firstComplex,secondComplex);
-        assertEquals(new Complex(-1,-3), addNumber);
+        Complex subNumber = Complex.subtractComplexNumber(firstComplex,secondComplex);
+        assertEquals(new Complex(-1,-3), subNumber);
     }
 }

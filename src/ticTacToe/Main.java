@@ -113,7 +113,7 @@ public class Main {
             exit(3);
         }
     }
-    private static void prompt(String prompt) {
+    public static void prompt(String prompt) {
         System.out.println(prompt);
     }
     private static void boardSurfaceUpdate() {

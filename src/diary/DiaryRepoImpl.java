@@ -11,6 +11,7 @@ public class DiaryRepoImpl implements DiaryRepo{
     @Override
     public void save(DiaryContent diaryContent) {
         diaryContents.add(diaryContent);
+//        System.out.println(diaryContent);
     }
 
     @Override
