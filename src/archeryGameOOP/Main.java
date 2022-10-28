@@ -63,14 +63,7 @@ public class Main {
     }
 
     private static void playerFourShots() {
-//        prompt("""
-//                    Select an option
-//                    1- Agree to shoot
-//                    2- Exit""");
-//        switch (input()){
-//            case 1: playerShot(playerFour);
-//            case 2:exit(2);
-//        }
+
         prompt("Player 4 shoot");
         scanner.nextLine();
         playerShot(playerFour);
